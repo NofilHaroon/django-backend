@@ -26,11 +26,7 @@ SECRET_KEY = 'v57_=r9$*!w8y+5eb4%igf*o-v2-yx*6)y0_f-8-c#f7aicx*@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ["127.0.0.1", "mimmarbackend3.herokuapp.com"]
-=======
-ALLOWED_HOSTS = ['127.0.0.1', "mimmarbackend3.herokuapp.com"]
->>>>>>> 78e52f2eabe21d127033c5530823102eb0825186
 
 
 # Application definition
@@ -135,16 +131,9 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATIC_URL = "/static/"
 
-<<<<<<< HEAD
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = "/media/"
-=======
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-MEDIA_URL = "/media/"
-
-django_heroku.settings(locals())
->>>>>>> 78e52f2eabe21d127033c5530823102eb0825186
