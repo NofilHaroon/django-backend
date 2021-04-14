@@ -26,7 +26,7 @@ SECRET_KEY = 'v57_=r9$*!w8y+5eb4%igf*o-v2-yx*6)y0_f-8-c#f7aicx*@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', "mimmarbackend3.herokuapp.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "mimmarbackend3.herokuapp.com"]
 
 
 # Application definition
